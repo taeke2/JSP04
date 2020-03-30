@@ -19,17 +19,6 @@
 		}
 	}
 	
-	function chkData() {
-		if (document.getElementById('id').value == "") {
-			alert("아이디는 필수 사항입니다.");
-		} else if (document.getElementById('pw1').value == "") {
-			alert("비밀번호는 필수 사항입니다.");
-		} else if (document.getElementById('pw2').value == "") {
-			alert("비밀번호 확인은 필수 사항입니다.");
-		} else {
-			fo.submit();
-		}
-	}
 </script>
 </head>
 <body>register.jsp<br>
